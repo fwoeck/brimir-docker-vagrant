@@ -52,3 +52,11 @@ It's necessary to provision during each consecutive start, because the Docker co
 Of course, this would be better done by an internal tool (systemd, runit, ...):
 
     > vagrant up --provision
+
+
+## Web Resources
+
+* [https://github.com/ivaldi/brimir](https://github.com/ivaldi/brimir)
+* [https://docs.docker.com/compose/rails/](https://docs.docker.com/compose/rails/)
+* [https://docs.docker.com/compose/networking/](https://docs.docker.com/compose/networking/)
+* [https://hub.docker.com/_/ruby/](https://hub.docker.com/_/ruby/)
