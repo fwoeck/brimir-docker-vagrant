@@ -1,0 +1,46 @@
+source 'https://rubygems.org'
+
+gem 'rails', '~> 4.2.0'
+gem 'sass-rails', '~> 5.0.0'
+gem 'coffee-rails', '~> 4.1.0'
+gem 'uglifier', '>= 1.0.3'
+gem 'compass-rails', '~> 2.0.0'
+gem 'foundation-rails', '~> 5.5.0'
+gem 'foundation_rails_helper'
+gem 'jquery-rails'
+gem 'rack-cache'
+gem 'puma'
+
+gem 'pg', group: :postgresql
+gem 'mysql2', group: :mysql
+gem 'sqlite3', group: :sqlite
+
+gem 'devise'
+gem 'devise_ldap_authenticatable'
+gem 'omniauth-google-oauth2'
+gem 'cancancan'
+gem 'will_paginate'
+gem 'paperclip'
+gem 'select2-rails', '~> 3.5' # newer breaks Foundation Reveal on tickets#show
+gem 'font-awesome-rails', '~> 4.0'
+gem 'tinymce-rails'
+gem 'http_accept_language'
+gem 'rails-i18n'
+gem 'devise-i18n'
+gem 'jbuilder', '~> 2.2'
+gem 'timecop'
+gem 'fancybox2-rails', '~> 0.2.8'
+gem 'gravatar_image_tag'
+
+gem 'byebug', group: [:development, :test]
+gem 'pry', group: [:development, :test]
+
+group :development do
+  gem 'spring'
+  gem 'letter_opener'
+end
+
+group :test do
+  gem 'rake'
+  gem 'coveralls'
+end

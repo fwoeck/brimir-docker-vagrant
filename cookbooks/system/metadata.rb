@@ -1,0 +1,7 @@
+name             'system'
+maintainer       ''
+maintainer_email ''
+license          'All rights reserved'
+description      'Controls the main server setup'
+long_description ''
+version          '1.0'

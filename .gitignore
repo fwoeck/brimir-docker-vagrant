@@ -1,0 +1,7 @@
+*~
+*.box
+*.log
+.tags
+.vagrant
+.session.vim
+/nodes/*.json

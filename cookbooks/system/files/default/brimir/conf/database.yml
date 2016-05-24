@@ -1,0 +1,8 @@
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: brimir
+  pool: 5
+  username: postgres
+  password:
+  host: db

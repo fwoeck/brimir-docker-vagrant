@@ -1,0 +1,1 @@
+au VimEnter * nested :call MakeSession()
