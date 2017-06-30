@@ -1,5 +1,5 @@
 default[:users][:sudoer]        = "vagrant"
-default[:docker][:machine_vers] = "0.7.0"
+default[:docker][:machine_vers] = "0.12.0"
 
 default[:apt][:debs] = %w{
   apt-transport-https
